@@ -117,7 +117,7 @@ st.markdown("""
 # Load Data
 # -----------------------------
 
-df = pd.read_excel("C:\Users\sivas\Downloads\tracker_data.xlsx")
+df = pd.read_excel(r"C:\Users\sivas\Downloads\tracker_data.xlsx")
 
 months = [
     "Jan","Feb","Mar","Apr","May","Jun",
