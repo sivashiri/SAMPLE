@@ -116,8 +116,13 @@ st.markdown("""
 # -----------------------------
 # Load Data
 # -----------------------------
+import pandas as pd
+from pathlib import Path
 
-df = pd.read_excel(r"C:\Users\sivas\Downloads\tracker_data.xlsx")
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "tracker_data.xlsx"
+
+df = pd.read_excel(DATA_FILE)
 
 months = [
     "Jan","Feb","Mar","Apr","May","Jun",
