@@ -275,16 +275,16 @@ for training in trainings:
                     status = str(r["Status"]).lower()
 
                     if status == "planned":
-
-                        color = "#3B82F6"
+   
+                        color = "#FACC15"
 
                     elif status == "executed":
 
-                        color = "#10B981"
+                        color = "#22C55E"
 
                     else:
 
-                        color = "#F97316"
+                        color = "#EF4444"
 
                     st.markdown(
                         f"""
