@@ -91,15 +91,15 @@ body{
 }
 
 .planned{
-    background:#3B82F6;
+    background:#FACC15;
 }
 
 .executed{
-    background:#10B981;
+    background:#22C55E;
 }
 
 .delayed{
-    background:#F97316;
+    background:#EF4444;
 }
 
 .monthHeader{
